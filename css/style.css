@@ -25,11 +25,17 @@
 }
 
 body {
+
     font-family: 'Caveat', cursive;
     font-family: var(--fontfam);
     font-size: var(--font_size);
     line-height: var(--line-height);
     background-color: var(--light-pink)
+    
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -37,6 +43,9 @@ h1 {
     font-weight: var(--font-weight);
 }
 
+.about-title {
+    text-align: center;
+}
 h2 {
     font-size: var(--h2font-size);
     font-weight: var(--font-weight);
@@ -168,6 +177,9 @@ button:hover {
     display: flex;
 }
 
+.contact-me {
+    text-align: center;
+}
 
 .grid {
     display: grid;
@@ -204,7 +216,7 @@ button:hover {
       transform: translate(0, 50px);
     }
     to {
-      transform: translate(100px, 50px);
+      transform: translate(300px, 100px);
     }
   }
 
