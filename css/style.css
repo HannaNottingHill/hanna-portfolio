@@ -15,7 +15,7 @@
     --pfont-size:18px;
     --font-weight: 700;
     --button-font-size: 16px;
-    --cursor-: pointer;
+    --cursor: pointer;
 
 
 
@@ -57,25 +57,25 @@ p {
 }
 
 a {
-    color: var(--light-brown);
+    color: black;
     transition-duration: 0.3s;
     transition-property: opacity;
 }
 
 a:hover {
     text-decoration: none;
-    cursor: var(--cursor-);
+    cursor: var(--cursor);
     opacity: 0.5;
 }
 
 a:focus {
     text-decoration: none;
-    cursor: var(--cursor-);
+    cursor: var(--cursor);
     opacity: 0.5;
 }
 
 a:visited {
-    color: var(--visited-maroon)
+    color: black
 }
 
 a:active {
@@ -105,7 +105,7 @@ button {
 button:hover,
 button:focus,
 button:hover {
-    cursor: var(--cursor-);
+    cursor: var(--cursor);
     opacity: 0.5;
 }
 
@@ -165,6 +165,7 @@ button:hover {
 .navigation-list li {
     display: inline-block;
     margin-left: 15px;
+    color: black;
 }
 
 .navigation-list {
